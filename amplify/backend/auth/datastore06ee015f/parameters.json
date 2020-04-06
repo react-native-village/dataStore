@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "datastorecfd1c516_identitypool_cfd1c516",
+    "identityPoolName": "datastore06ee015f_identitypool_06ee015f",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "datastcfd1c516",
-    "userPoolName": "datastorecfd1c516_userpool_cfd1c516",
+    "resourceNameTruncated": "datast06ee015f",
+    "userPoolName": "datastore06ee015f_userpool_06ee015f",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,9 +28,9 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "datastcfd1c516_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "datast06ee015f_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "datastorecfd1c516",
+    "resourceName": "datastore06ee015f",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [

@@ -1,5 +1,6 @@
 import React from 'react'
 import Amplify from '@aws-amplify/core'
+import { Platform } from 'react-native'
 import * as Keychain from 'react-native-keychain'
 import { ThemeProvider, DarkTheme, LightTheme } from 'react-native-unicorn-uikit'
 import { useColorScheme } from 'react-native-appearance'
@@ -45,7 +46,7 @@ const App = () => {
   const scheme = useColorScheme()
   return (
     <>
-      <ThemeProvider theme={scheme === 'dark' ? DarkTheme : LightTheme}>
+      <ThemeProvider theme={Platform.OS === 'ios' ? DarkTheme : LightTheme}>
         <AppNavigator />
       </ThemeProvider>
     </>

@@ -36,7 +36,7 @@ const ConfirmSignUp = ({ route, navigation }) => {
 
   const _onResend = async () => {
     try {
-      const { email } = navigation.state.params
+      const { email } = route.params
       await Auth.resendSignUp(email)
     } catch (err) {
       setError(err.message)
