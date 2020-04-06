@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"datastorecfd1c516": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
