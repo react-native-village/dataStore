@@ -124,8 +124,7 @@ If incomprehensible errors appear, it means that somewhere you made a mistake in
 
 `rm -rf aws-exports.js`
 
-3. We go through these [steps](https://github.com/react-native-village/aws-amplify-react-hooks/blob/master/examples/reactNativeCRUD/README.md#step-3---init-amplify
-) again
+3. We go through these [steps](https://github.com/react-native-village/dataStore#step-3---init-amplify) again
 
 
 
